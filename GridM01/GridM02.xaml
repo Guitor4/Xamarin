@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GridM01.GridM02">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black" RowSpacing="10" ColumnSpacing="10" Padding="10">
+            <Button Text="bt1" Grid.Row="0" Grid.Column="0" BackgroundColor="yellow" CornerRadius="10"></Button>
+            <Button Text="bt2" Grid.Row="0" Grid.Column="1" BackgroundColor="blue" CornerRadius="10"></Button>
+            <Button Text="bt3" Grid.Row="0" Grid.Column="2" BackgroundColor="yellow" CornerRadius="10"></Button>
+            <Button Text="bt4" Grid.Row="0" Grid.Column="3" BackgroundColor="blue" CornerRadius="10"></Button>
+            <Button Text="bt5 RowSpan" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="red" CornerRadius="10"></Button>
+            <Button Text="bt6 RowSpan" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="red" CornerRadius="10"></Button>
+            <Button Text="Página 1" Clicked="pagina01" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" BackgroundColor="green" CornerRadius="10"></Button>
+            <Button Text="Página 3" Clicked="pagina03" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2" BackgroundColor="green" CornerRadius="10"></Button>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
