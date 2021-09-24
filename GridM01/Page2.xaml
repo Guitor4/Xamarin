@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GridM01.Page2">
+    <ContentPage.Content>
+            
+            <Grid BackgroundColor="Blue" Padding="40" ColumnSpacing="20" RowSpacing="10">
+            <Label x:Name ="lb1"  Text="0" FontAttributes ="Bold" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Padding="10"/>
+            <Label x:Name ="lb2" Text="0rfkddddjes" Margin="0,0,0,25" FontSize="Large" FontAttributes ="Bold" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Padding="10"/>
+            <Button x:Name ="btn1" Text="7" Clicked="btn1_Clicked" FontAttributes ="Bold" Grid.Row="2" Grid.Column="0" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn2" Text="8" FontAttributes ="Bold" Grid.Row="2" Grid.Column="1" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn3" Text="9" FontAttributes ="Bold" Grid.Row="2" Grid.Column="2" BackgroundColor="White" CornerRadius="15" />
+            <Button x:Name ="btn4" Text="+" FontAttributes ="Bold" Grid.Row="2" Grid.Column="3" BackgroundColor="White" Margin="15,0,0,0" CornerRadius="15" />
+            <Button x:Name ="btn5" Text="4" FontAttributes ="Bold" Grid.Row="3" Grid.Column="0" BackgroundColor="White" CornerRadius="15" />
+            <Button x:Name ="btn6" Text="5" FontAttributes ="Bold" Grid.Row="3" Grid.Column="1" BackgroundColor="White" CornerRadius="15" />
+            <Button x:Name ="btn7" Text="6" FontAttributes ="Bold" Grid.Row="3" Grid.Column="2" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn8" Text="-" FontAttributes ="Bold" Grid.Row="3" Grid.Column="3" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn9" Text="1" FontAttributes ="Bold" Grid.Row="4" Grid.Column="0" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn10" Text="2" FontAttributes ="Bold" Grid.Row="4" Grid.Column="1" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn11" Text="3" FontAttributes ="Bold" Grid.Row="4" Grid.Column="2" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn12" Text="*" FontAttributes ="Bold" Grid.Row="4" Grid.Column="3" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn13" Text="0" FontAttributes ="Bold" Grid.Row="5" Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn14" Text="=" FontAttributes ="Bold" Grid.Row="5" Grid.Column="2" BackgroundColor="White" CornerRadius="15"/>
+            <Button x:Name ="btn15" Text="/" FontAttributes ="Bold" Grid.Row="5" Grid.Column="3" BackgroundColor="White" CornerRadius="15"/>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                
+                
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

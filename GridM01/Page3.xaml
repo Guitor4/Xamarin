@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GridM01.Page3">
+
+    <AbsoluteLayout>
+        <Image Source="img/peter.jpg"
+                   AbsoluteLayout.LayoutBounds="0.5,0.5,300,200"
+                   AbsoluteLayout.LayoutFlags="YProportional"/>
+        <Image Source="img/dio.jpg"
+                   AbsoluteLayout.LayoutBounds="0.5,10,300,200"
+                   AbsoluteLayout.LayoutFlags="XProportional"/>
+        <Image Source="img/elesis.jpg"
+                   AbsoluteLayout.LayoutBounds="0.5,10,300,200"
+                   AbsoluteLayout.LayoutFlags="XProportional"/>
+        <Image Source="img/edel.png"
+                   AbsoluteLayout.LayoutBounds="0.5,10,300,200"
+                   AbsoluteLayout.LayoutFlags="XProportional"/>
+        <Image Source="img/zero.png"
+                   AbsoluteLayout.LayoutBounds="0.5,10,300,200"
+                   AbsoluteLayout.LayoutFlags="XProportional"/>
+
+    </AbsoluteLayout>
+</ContentPage>

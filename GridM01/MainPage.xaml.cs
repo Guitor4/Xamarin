@@ -22,5 +22,10 @@ namespace GridM01
         {
             Navigation.PushAsync(new GridM02());
         }
+
+        private void pagina05(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page4());
+        }
     }
 }

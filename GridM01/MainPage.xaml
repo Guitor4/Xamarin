@@ -17,7 +17,8 @@
         <Label Text="Label 7" Grid.Row="2" Grid.Column="0" BackgroundColor="ForestGreen" />
         <Label Text="Label 8" Grid.Row="2" Grid.Column="2" BackgroundColor="Beige" />
         <Label Text="Label 9 ColumnSpan" Grid.Row="3" Grid.ColumnSpan="3" BackgroundColor="Cyan" />
-        <Button Text="Ir" Clicked="Button_Clicked" Grid.Row="4" Grid.Column="1" CornerRadius="10" BackgroundColor="Aqua"  Padding="10" TextColor="black" FontSize="20"/>
+        <Button Text="Ir" Clicked="pagina02" Grid.Row="4" Grid.Column="1" CornerRadius="10" BackgroundColor="Aqua"  Padding="10" TextColor="black" FontSize="20"/>
+        <Button Text="Ir" Clicked="pagina05" Grid.Row="4" Grid.Column="2" CornerRadius="10" BackgroundColor="Aqua"  Padding="10" TextColor="black" FontSize="20"/>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>

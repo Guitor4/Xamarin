@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GridM01.Page4"
+             xmlns:imgc ="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+            <imgc:CircleImage Source="elesis.jpg" x:Name="img1"
+                 AbsoluteLayout.LayoutBounds="0,-0.1,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T1">
+                        
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="zero.png" x:Name="img2"
+                 AbsoluteLayout.LayoutBounds="0.33,-0.1,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                <TapGestureRecognizer Tapped="T2" NumberOfTapsRequired="2">
+
+                </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="edel.png" x:Name="img3"
+                 AbsoluteLayout.LayoutBounds="0.67,-0.1,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                <TapGestureRecognizer Tapped="T3" NumberOfTapsRequired="1">
+
+                </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="dio.jpg" x:Name="img4"
+                 AbsoluteLayout.LayoutBounds="1,-0.1,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                <TapGestureRecognizer Tapped="T4" NumberOfTapsRequired="2">
+
+                </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="lupus.png" x:Name="img5"
+                 AbsoluteLayout.LayoutBounds="0,0.2,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T1">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="holy.png" x:Name="img6"
+                 AbsoluteLayout.LayoutBounds="0.33,0.2,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T2" NumberOfTapsRequired="2">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="lass.png" x:Name="img7"
+                 AbsoluteLayout.LayoutBounds="0.67,0.2,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T3" NumberOfTapsRequired="1">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="asin.png" x:Name="img8"
+                 AbsoluteLayout.LayoutBounds="1,0.2,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T4" NumberOfTapsRequired="2">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="elesis.jpg" x:Name="img1"
+                 AbsoluteLayout.LayoutBounds="0,-0.1,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T1">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="zero.png" x:Name="img2"
+                 AbsoluteLayout.LayoutBounds="0.33,-0.1,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T2" NumberOfTapsRequired="2">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="edel.png" x:Name="img3"
+                 AbsoluteLayout.LayoutBounds="0.67,-0.1,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T3" NumberOfTapsRequired="1">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="dio.jpg" x:Name="img4"
+                 AbsoluteLayout.LayoutBounds="1,-0.1,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T4" NumberOfTapsRequired="2">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="lupus.png" x:Name="img5"
+                 AbsoluteLayout.LayoutBounds="0,0.2,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T1">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="holy.png" x:Name="img6"
+                 AbsoluteLayout.LayoutBounds="0.33,0.2,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T2" NumberOfTapsRequired="2">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="lass.png" x:Name="img7"
+                 AbsoluteLayout.LayoutBounds="0.67,0.2,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T3" NumberOfTapsRequired="1">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+            <imgc:CircleImage Source="asin.png" x:Name="img8"
+                 AbsoluteLayout.LayoutBounds="1,0.2,85,185"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+                <imgc:CircleImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="T4" NumberOfTapsRequired="2">
+
+                    </TapGestureRecognizer>
+                </imgc:CircleImage.GestureRecognizers>
+            </imgc:CircleImage>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

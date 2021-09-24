@@ -15,12 +15,14 @@
             <Button Text="bt6 RowSpan" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="red" CornerRadius="10"></Button>
             <Button Text="Página 1" Clicked="pagina01" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" BackgroundColor="green" CornerRadius="10"></Button>
             <Button Text="Página 3" Clicked="pagina03" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2" BackgroundColor="green" CornerRadius="10"></Button>
+            <Button Text="Página 4" Clicked="pagina04" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2" BackgroundColor="green" CornerRadius="10"></Button>
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="50"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
