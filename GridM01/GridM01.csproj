@@ -25,19 +25,58 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="GridM02.xaml">
+    <Compile Update="GridBotoes.xaml.cs">
+      <DependentUpon>GridBotoes.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ListView1.xaml.cs">
+      <DependentUpon>ListView1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Calculadora.xaml.cs">
+      <DependentUpon>Calculadora.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="GcCharacters.xaml.cs">
+      <DependentUpon>GcCharacters.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="CharSpecs.xaml.cs">
+      <DependentUpon>CharSpecs.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ImgCircleNoCS.xaml.cs">
+      <DependentUpon>ImgCircleNoCS.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="PaginaTeste.xaml.cs">
+      <DependentUpon>PaginaTeste.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="GridBotoes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page03.xaml">
+    <EmbeddedResource Update="ListaAlunos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page2.xaml">
+    <EmbeddedResource Update="ListView2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page3.xaml">
+    <EmbeddedResource Update="ListView3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page5.xaml">
+    <EmbeddedResource Update="ListViewExercicio.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PaginaTeste.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Calculadora.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CharSpecs.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ImgCircleNoCS.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ListView1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -20,12 +20,12 @@ namespace GridM01
 
         private void pagina02(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new GridM02());
+            Navigation.PushAsync(new GridBotoes());
         }
 
         private void pagina05(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page4());
+            Navigation.PushAsync(new GcCharacters());
         }
     }
 }

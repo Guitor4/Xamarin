@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace GridM01
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page5 : ContentPage
+    public partial class ImgCircleNoCS : ContentPage
     {
-        public Page5()
+        public ImgCircleNoCS()
         {
             InitializeComponent();
 

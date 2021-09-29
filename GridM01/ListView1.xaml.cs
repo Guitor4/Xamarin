@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace GridM01
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page3 : ContentPage
+    public partial class ListView1 : ContentPage
     {
-        public Page3()
+        public ListView1()
         {
             InitializeComponent();
         }

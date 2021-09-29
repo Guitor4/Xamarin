@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GridM01.GridM02">
+             x:Class="GridM01.GridBotoes">
     <ContentPage.Content>
         <Grid BackgroundColor="Black" RowSpacing="10" ColumnSpacing="10" Padding="10">
             <Button Text="bt1" Grid.Row="0" Grid.Column="0" BackgroundColor="yellow" CornerRadius="10"></Button>

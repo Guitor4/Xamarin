@@ -10,17 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace GridM01
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page2 : ContentPage
+    public partial class ListViewExercicio : ContentPage
     {
-        public Page2()
+        public ListViewExercicio()
         {
             InitializeComponent();
         }
 
-
-        private void btn1_Clicked(object sender, EventArgs e)
+        private void ListaAlunos(object sender, EventArgs e)
         {
-            lb1.Text += '7';
+            Navigation.PushAsync(new ListaAlunos());
         }
     }
 }

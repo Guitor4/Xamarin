@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace GridM01
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page4 : ContentPage
+    public partial class GcCharacters : ContentPage
     {
-        public Page4()
+        public GcCharacters()
         {
             InitializeComponent();
         }
@@ -22,7 +22,7 @@ namespace GridM01
             img1.Opacity = 0.5;
             await Task.Delay(100);
             img1.Opacity = 1;
-            await Navigation.PushAsync(new Page03());
+            await Navigation.PushAsync(new PaginaTeste());
         }
         private async void T2(object sender, EventArgs e)
         {
@@ -36,14 +36,14 @@ namespace GridM01
             img3.Opacity = 0.5;
             await Task.Delay(100);
             img3.Opacity = 1;
-            await Navigation.PushAsync(new Page5());
+            await Navigation.PushAsync(new CharSpecs());
         }
         private async void T4(object sender, EventArgs e)
         {
             img4.Opacity = 0.5;
             await Task.Delay(100);
             img4.Opacity = 1;
-            await Navigation.PushAsync(new Page03());
+            await Navigation.PushAsync(new PaginaTeste());
         }
     }
 }
