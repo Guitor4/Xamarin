@@ -49,6 +49,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="DetalhesAlunos.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="GridBotoes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

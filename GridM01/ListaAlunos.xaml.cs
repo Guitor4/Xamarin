@@ -65,9 +65,9 @@ namespace GridM01
         private void listView1_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             
-           var p = e.SelectedItem as Alunos;
+           var alunos = e.SelectedItem as Alunos;
 
-            DisplayAlert("Mensagem", "Aluno : " +p.nome, "OK");
+            Navigation.PushAsync(new DetalhesAlunos(alunos));
         }
 
     }
