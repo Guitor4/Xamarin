@@ -16,10 +16,12 @@
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <ListView x:Name="listView1"
+            <ListView x:Name="listView1" IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}"
+           IsRefreshing="{Binding IsRefreshing}"
                   SeparatorVisibility="Default"
                   SeparatorColor="DarkGray"
                   ItemSelected="listView1_ItemSelected">
+
                 <ListView.ItemTemplate>
                     <DataTemplate>
 

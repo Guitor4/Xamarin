@@ -67,7 +67,8 @@ namespace GridM01
             
            var p = e.SelectedItem as Alunos;
 
-            DisplayAlert("Mensagem", "Aluno :" +p.nome, "OK");
+            DisplayAlert("Mensagem", "Aluno : " +p.nome, "OK");
         }
+
     }
 }

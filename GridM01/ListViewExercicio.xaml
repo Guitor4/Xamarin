@@ -4,15 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GridM01.ListViewExercicio">
+             x:Class="GridM01.ListViewExercicio"
+             Title="Exercício ListView">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
-            <Frame BackgroundColor="DarkBlue" Padding="15" 
-               CornerRadius="0">
-                <Label Text="Exercício ListView!" 
-                   HorizontalTextAlignment="Center" 
-                   TextColor="White" FontSize="24"/>
-            </Frame>
             <Label Text="Apresentação de Lista de Alunos inscritos com foto, nome e matrícula" Padding="20" FontSize="20"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" />
